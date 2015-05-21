@@ -1,0 +1,81 @@
+
+header h1 {
+text-indent: 50px;
+font-size: 2.5em;
+color: #ccc;
+text-shadow: rgba(0,0,0,0.5) 1px 0, rgba(0,0,0,0.3) 0 1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) 1px 2px;
+font-weight: bold;
+text-align: center;
+}
+/* Wrapper Styles */
+#wrapper {
+width: 220px;
+margin: 2% 0 0 6%;
+}
+/*simpleSlider styles */
+
+/* The slider container */
+#sliderContainer {
+width: 220px;
+margin: 0 auto;
+}
+/* The slider ul stypes, important to note that we hide all the overflow! */
+#simpleSlider {
+width: 220px;
+height: 100px;
+overflow: hidden;
+position: relative;
+list-style: none;
+padding: 0;
+margin: 0 auto;
+}
+/* styles for each item */
+#simpleSlider li {
+position: absolute;
+top: 0px;
+left: 0px;
+display: none;
+}
+/* display the first item */
+#simpleSlider li:first-child {
+display: block;
+}
+/* Our style for the next button, this can be anything */
+#simpleSliderNext {
+float: right;
+color: #000;
+font-size: 70pt;
+font-weight: bold;
+cursor: pointer;
+margin-top: 110px;
+}
+/* Our style for the previous button, this can be anything */
+#simpleSliderPrevious {
+float: left;
+color: #000;
+font-size: 70pt;
+font-weight: bold;
+cursor: pointer;
+margin-top: 110px;
+}
+li img {
+border-radius: 2px;
+}
+/* Some margin for your navigation */
+#simpleSliderNav {
+margin: 3% 0 0 0;
+}
+/* Styling for the navigation items, this can also be anything we want, but I am using circles */
+.simpleSliderNavItem {
+height: 5px;
+width: 5px;
+float: left;
+background: #000;
+margin-left: 10px;
+cursor: pointer;
+}
+/* styles for the active nav item */
+.active {
+color: #000 !important;
+background: url(http://ecentrichr.com/wp-content/uploads/2014/05/btn-active.png) repeat-x !important;
+}
