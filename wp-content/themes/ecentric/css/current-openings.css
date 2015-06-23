@@ -1,0 +1,93 @@
+
+
+
+
+
+div#info ul li img {
+	border: 1px solid #ccc;
+}
+
+ul#ticker {
+	/*width: 220px;*/
+	height: 100px;
+	overflow: hidden;
+    margin-top: 30px;
+	
+}
+ul#ticker ul{
+	margin:0 auto;
+	padding:0;
+	}
+
+ul#ticker li {
+	/*width: 220px;*/
+	height: 120px;
+	padding: 10px;
+}
+
+ul#ticker li a {
+	color: #000;
+	background:url(../images/arrow1.jpg) no-repeat left;
+	width:200px;
+	padding:0 0 0 7%;
+}
+
+ul#ticker li span {
+	display: block;
+	color: #505050;
+	font-size:11px;
+	line-height:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#info ul li img {
+	border: 1px solid #ccc;
+}
+
+ul#ticker1 {
+	/*width: 220px;*/
+	height: 100px;
+	overflow: hidden;
+    margin-top: 30px;
+	
+}
+ul#ticker1 ul{
+	margin:0 auto;
+	padding:0;
+	}
+
+ul#ticker1 li {
+	/*width: 220px;*/
+	height: 120px;
+	padding: 10px;
+	font-size:11px;
+	line-height:15px;
+}
+
+ul#ticker1 li a {
+	color: #000;
+	background:url(../images/arrow1.jpg) no-repeat left;
+	width:200px;
+	padding:0 0 0 7%;
+}
+
+ul#ticker1 li span {
+	display: block;
+	color: #505050;
+}
